@@ -5,7 +5,6 @@
   import Men from './Pages/Men'
   import Women from './Pages/Women'
   import Kid from './Pages/Kid'
-  import Login from './Pages/Login'
   import Hero from './Pages/Hero'
   import Item from './Pages/Item'
   import requireData from './assets/all_product.js'
@@ -14,6 +13,7 @@
 import New from './Pages/New.jsx'
 import Newsletter from './Newsletter.jsx'
 import Footer from './Components/Navbar/Footer/Footer.jsx'
+import Login from './Components/Navbar/Login/Login.jsx'
   const App = () => {
     return (
       <>
@@ -61,9 +61,9 @@ New Arrivals
   </div>
 </div>
 
-
 <Newsletter/>
 <Footer/>
+<Login/>
 
 
           <Routes>
